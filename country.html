@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>REST Countries API with Color Theme Switcher</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="header">
+  <h1>REST Countries API</h1>
+  <div class="theme-switcher">
+    <label for="theme">Theme:</label>
+    <select id="theme" onchange="changeTheme()">
+      <option value="light">Light</option>
+      <option value="dark">Dark</option>
+    </select>
+  </div>
+</div>
+
+<div class="container" id="countriesContainer">
+  <!-- Country data will be displayed here -->
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
